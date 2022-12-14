@@ -1,0 +1,184 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+
+.main {
+  height: 100vh;
+  background-color: #ff7a7a;
+  background-image: url("bg-intro-desktop.5974f34b.png");
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8rem;
+  display: flex;
+}
+
+.left, .right {
+  color: #fff;
+  flex-direction: column;
+  display: flex;
+}
+
+.trial {
+  width: 28rem;
+  background-color: #6055a5;
+  border-radius: 1rem;
+  padding: 1rem 2rem;
+}
+
+.span {
+  font-weight: 700;
+}
+
+.formdiv {
+  width: 28rem;
+  height: -moz-fit-content;
+  height: fit-content;
+  background-color: #fff;
+  border-radius: 1rem;
+  margin-top: 1rem;
+  padding: .75rem;
+}
+
+.formwrap {
+  background-color: #fff;
+  flex-direction: column;
+  display: flex;
+}
+
+input {
+  width: 24rem;
+  margin: .75rem;
+  padding: .75rem;
+}
+
+.success {
+  border: 1px solid #6055a5;
+  border-radius: 2px;
+  outline: none !important;
+}
+
+.error {
+  float: right;
+  color: #ff7a7a;
+  margin-right: 4rem;
+  font-size: .6rem;
+}
+
+.focuserror {
+  border: 2px solid #ff7a7a;
+  outline: none !important;
+}
+
+.button {
+  width: 24rem;
+  color: #fff;
+  cursor: pointer;
+  background-color: #38cc8c;
+  border: none;
+  margin: 1rem;
+  padding: 1rem;
+  font-weight: 700;
+}
+
+.inactive {
+  background-color: #38cc8c80;
+}
+
+.subpara {
+  text-align: center;
+  color: #000;
+  font-size: .75rem;
+}
+
+.tc {
+  color: #ff7a7a;
+  cursor: pointer;
+  font-weight: 800;
+}
+
+.attribution {
+  font-size: 1rem;
+}
+
+@media (min-width: 300px) and (max-width: 500px) {
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    width: -moz-fit-content;
+    width: fit-content;
+    height: 100%;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow-x: scroll;
+  }
+
+  .main {
+    height: auto;
+    width: -moz-fit-content;
+    width: fit-content;
+    flex-direction: column;
+    padding: 4rem;
+    display: flex;
+  }
+
+  .heading {
+    text-align: center;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    font-size: 3rem;
+  }
+
+  .desc {
+    text-align: center;
+    padding-bottom: 2rem;
+    font-size: 1.5rem;
+  }
+
+  .trial {
+    text-align: center;
+    flex-direction: column;
+    font-size: 1.5rem;
+    display: flex;
+  }
+
+  .formdiv {
+    padding: 1.5rem;
+  }
+
+  input {
+    font-size: 1.5rem;
+  }
+
+  .button {
+    width: 23rem;
+    font-size: 1.25rem;
+  }
+
+  .subpara {
+    font-size: 1.25rem;
+  }
+
+  .error {
+    margin-right: 2rem;
+    font-size: .75rem;
+  }
+
+  footer {
+    font-size: 1.25rem;
+  }
+}
+
+/*# sourceMappingURL=index.3a01df49.css.map */
